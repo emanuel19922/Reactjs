@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -13,20 +15,18 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAmiUuoONTdnFe-eL8Ni3fDJsKmxAnVXHE",
-  authDomain: "products-d8120.firebaseapp.com",
-  projectId: "products-d8120",
-  storageBucket: "products-d8120.appspot.com",
-  messagingSenderId: "1058881016231",
-  appId: "1:1058881016231:web:67967a43a5e7851f4b2682",
-  measurementId: "G-2YKZKP5SZK"
+  apiKey: "AIzaSyAp3Ku_X_5joPs4pNMTQdmS9GxqHq-qVEg",
+  authDomain: "productosdatabase.firebaseapp.com",
+  projectId: "productosdatabase",
+  storageBucket: "productosdatabase.appspot.com",
+  messagingSenderId: "829211620202",
+  appId: "1:829211620202:web:ea961caaf8e6bb1e19eb13",
+  measurementId: "G-BG7EWMMZ26"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-
-
 
 
 
